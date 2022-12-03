@@ -1,4 +1,15 @@
 # Cross-service example: Building an Amazon Transcribe streaming app
+Translation Project!
+
+Expected result: A web app that shows a button to ask user to speak into a microphone 
+Then it transcribes whatever the user says and translates it into a different language.
+
+1. Links 
+https://docs.aws.amazon.com/transcribe/latest/dg/example_cross_TranscriptionApp_section.html
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/cross-services/transcription-app
+https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html
+
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/cross-services/transcribe-streaming-app
 
 ## Purpose
 The cross-service example demonstrates how to build an app that records and transcribes an audio stream in real-time. It
