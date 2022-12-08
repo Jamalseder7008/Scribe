@@ -1,8 +1,17 @@
 // server.js: This is a tiny NodeJS web server hosting static files from the /www folder in the Elastic Beanstalk deployment ZIP
 // Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-var express = require('express');
+import express from 'express';
+import path from 'path';
+import {fileURLToPath} from 'url';
+
 // Let's create an instance of an express web server
 var app = express();
+
+
+const __filename = fileURLToPath(import.meta.url);
+
+// 👇️ "/home/john/Desktop/javascript"
+const __dirname = path.dirname(__filename);
 // By default, let's use port 80, unless we provide a different value as argument or system environment variable
 var port = process.env.PORT || process.argv[2] || 80;
 // Let's host all the static files in /www as root of our little web server
