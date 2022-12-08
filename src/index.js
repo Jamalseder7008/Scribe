@@ -17,6 +17,7 @@ import * as TranscribeClient from "./libs/transcribeClient.js";
 import * as TranslateClient from "./libs/translateClient.js";
 import * as EmailClient from "./libs/emailClient.js";
 
+
 const recordButton = document.getElementById("record");
 const inputLanguageList = document.getElementById("inputLanguageList");
 const transcribedText = document.getElementById("transcribedText");
@@ -31,6 +32,8 @@ window.onRecordPress = () => {
     stopRecording();
   }
 };
+
+
 
 const startRecording = async() => {
   window.clearTranscription();
