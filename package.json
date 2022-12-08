@@ -7,7 +7,7 @@
   "author": "brmur and (Jamal, Kaitan) partners", 
   "license": "Apache 2.0",
   "scripts": {
-    
+    "start": "../npm install && node index.js",
     "build": "webpack --config ./webpack.config.cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
